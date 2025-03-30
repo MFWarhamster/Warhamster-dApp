@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function ArmyBuilder() {
   const [armyName, setArmyName] = useState('My Warhamster Army');
   const [stacks, setStacks] = useState(6);
-  const [stackCapacity, setStackCapacity] = useState(20);
+  const [stackCapacity] = useState(20);
 
   const handleArmyPurchase = () => {
     const cost = 25 * Math.pow(1.25, stacks - 6);
