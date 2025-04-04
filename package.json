@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@metaplex-foundation/js": "^0.20.2",
-    "@solana/spl-token": "^0.4.14",
+    "@metaplex-foundation/js": "^0.20.0",
+    "@solana/spl-token": "^0.2.0",
     "@solana/wallet-adapter-react": "^0.16.0",
-    "@solana/wallet-adapter-react-ui": "^0.10.0",
+    "@solana/wallet-adapter-react-ui": "^0.9.36",
     "@solana/wallet-adapter-wallets": "^0.20.0",
     "@solana/web3.js": "^1.99.0",
     "@supabase/supabase-js": "^2.50.0",
